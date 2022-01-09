@@ -1,6 +1,3 @@
-# In this project I will create a tool to scrape descriptions of garments from their respective product pages
-# on their brand websites. I will use the vendor item numbers provided on Navision to direct each search.
-
 # require 'open-uri'
 # require 'nokogiri'
 require 'csv'
@@ -10,6 +7,7 @@ filepath = "vin.csv"
 CSV.foreach(filepath) do |row|
   puts "#{row[0]}"
 end
+
 
 # The Plan
 # Create an array of vendor item numbers / figure out how to store the vendor item numbers.
