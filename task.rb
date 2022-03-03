@@ -26,7 +26,7 @@ vin.each do |vendoritemnumber|
   end
 end
 
-# To do
+# To do  - To do list here
 
 # Insert the vendor item number into the URL
 # "https://www.mammut.com/uk/en/products/#{vendor-item-number}"
