@@ -6,6 +6,8 @@ require 'csv'
 # Loop through csv file to pull out each VIN one by one
 # vendor-item-number-array = []
 
+# To do
+
 filepath = "vin.csv"
 vin = []
 
