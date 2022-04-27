@@ -12,7 +12,7 @@ filepath = "vin.csv"
 vin = []
 
 CSV.foreach(filepath) do |row|
-  puts "#{row[0]}"
+  puts "vendor item number - #{row[0]}"
   vin << row[0]
 end
 
